@@ -14,7 +14,7 @@ usage: collect.py [-h] [-t ACCESS_TOKEN]
                   [result_directory] [release_candidate]
 
 positional arguments:
-  result_directory      Result directory, by default "results"
+  result_directory      Result directory
   release_candidate     Release Candidate number
 
 optional arguments:

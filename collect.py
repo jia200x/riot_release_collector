@@ -79,7 +79,7 @@ def main():
 
     p = argparse.ArgumentParser()
     p.add_argument('result_directory', nargs='?',
-                   help='Result directory, by default "results"')
+                   help='Result directory')
 
     p.add_argument('release_candidate', nargs='?', type=int,
                    help='Release Candidate number')
