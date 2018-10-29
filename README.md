@@ -32,6 +32,10 @@ collect.py /tmp/results 1
 
 Data is signed with a Github account, so it's necessary to create a personal token. See [Creating a personal token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
 
+# WARNING
+- This script will upload **ALL** boards present in the `results` folder. Since there's no duplication detection in the log server, please create and upload a **new** `results` folder after every time data is uploaded successfully.
+- The folders under `results` folder have to preserve their structure and naming convention (e.g don't change board names, move files, etc).
+
 # Limitations and future work
 
 - Timestamp is set on upload. It should be obtained by time when tests were ran.
